@@ -1,0 +1,12 @@
+:root{--navy:#0a0d18;--ink:#faf6f0;--muted:#b9b3aa;--gold:#e2c48c;--line:rgba(226,196,140,.25)}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--navy);color:var(--ink);font:16px/1.65 "Montserrat",system-ui,sans-serif}
+main{max-width:760px;margin:0 auto;padding:64px 20px 80px}
+.mark{display:block;width:72px;height:auto;margin:0 0 28px}
+h1{font:400 clamp(34px,6vw,52px)/1.1 "Instrument Serif",Georgia,serif;margin:0 0 6px;letter-spacing:.01em}
+h1 em{color:var(--gold)}
+.kicker{font-size:12px;letter-spacing:.32em;text-transform:uppercase;color:var(--gold);margin:0 0 14px}
+h2{font:400 26px/1.2 "Instrument Serif",Georgia,serif;color:var(--gold);margin:40px 0 8px}
+p,li{color:var(--muted)}a{color:var(--gold)}
+hr{border:0;border-top:1px solid var(--line);margin:40px 0}
+footer{font-size:13px;color:var(--muted)}
